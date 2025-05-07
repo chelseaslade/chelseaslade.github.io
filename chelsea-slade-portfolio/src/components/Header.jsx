@@ -6,7 +6,6 @@ const Header = () => {
       <>
         <div className="header">
           <header className="banner">
-              <h1>Chelsea Slade</h1>
               <nav className="nav">
                 <ul className="navList">
                   <li><Link to="/">Home</Link></li>
