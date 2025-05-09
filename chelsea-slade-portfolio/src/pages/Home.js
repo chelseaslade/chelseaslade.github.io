@@ -7,14 +7,16 @@ const Home = () => {
       <>
       <div className="container">
       <div className="home">
-        <h1>Chelsea J. Slade, BSc</h1>
-        <h2>Junior Software Developer</h2>
+        <div className="introBox">
         <div className="imageContainer">
         <img src={profilepic} alt="Chelsea Slade" id="introPic" />
         </div>
-        <div className="buttonContainer">
+        <div className="textBox">
+        <h1>Chelsea J. Slade, BSc</h1>
+        <h2>Junior Software Developer</h2><p>Hello! I'm Chelsea. Thanks for checking out my portfolio. </p> 
         <button class="genButton">Download Resume</button>
         <Link to="/about"><button class="genButton">About Me</button></Link>
+        </div>
         </div>
         </div>
         </div>

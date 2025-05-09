@@ -47,7 +47,7 @@ body {
   justify-content: space-around;
   width: 100%;
   margin: auto 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .banner {
@@ -82,13 +82,29 @@ body {
   list-style: none;
   flex-direction: row;
   display: flex;
-  margin: auto 0;
+  margin-top: 10px;
 }
 
 .navList li {
-  display: flex; 
   margin-left: 15px;
   margin-right: 15px;
+}
+
+#contactButton {
+  background-color: rgb(201, 87, 146);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  }
+
+#contactButton:hover {
+  background-color: rgb(248, 181, 95);
+  color: white;
+  transition: 0.6s;
 }
 
 /* Footer */
@@ -98,7 +114,7 @@ body {
   width: 100%;
   color: rgb(61, 54, 92);
   font-size: 16px;  
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 /* Images */
@@ -117,6 +133,15 @@ body {
 }
 
 /* Home */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 .home h1 {
   color: rgb(61, 54, 92);
   margin: 5px;
@@ -127,4 +152,26 @@ body {
   margin: 0;
   font-size: 20px;
   text-align: center;
+}
+
+.introBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.textBox p {
+  font-size: 18px;
+  padding: 20px;
 }
