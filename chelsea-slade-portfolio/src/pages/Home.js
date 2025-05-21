@@ -13,8 +13,10 @@ const Home = () => {
         </div>
         <div className="textBox">
         <h1>Chelsea J. Slade, BSc</h1>
-        <h2>Junior Software Developer</h2><p>Hello! I'm Chelsea. Thanks for checking out my portfolio. </p> 
-        <button class="genButton">Download Resume</button>
+        <h2>Junior Software Developer</h2>
+        <h4>Java - SQL Databases - Javascript - React</h4>
+        <p>Hello! I'm Chelsea. Thanks for checking out my portfolio. </p> 
+        <button class="genButton">View Resume</button>
         <Link to="/about"><button class="genButton">About Me</button></Link>
         </div>
         </div>
