@@ -16,7 +16,7 @@ const Home = () => {
         <h1>Chelsea J. Slade, BSc</h1>
         <h2>Junior Software Developer</h2>
         <h4>Java - SQL Databases - Javascript - React</h4>
-        <p>Hello! I'm Chelsea. Thanks for checking out my portfolio. </p> 
+        <p>Hello! I'm Chelsea. Welcome to my portfolio. </p> 
         <a href={pdf} target='_blank' rel="noopener noreferrer"><button className="genButton">View Resume</button></a>
         <Link to="/about"><button className="genButton">About Me</button></Link>
         </div>
