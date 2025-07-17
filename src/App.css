@@ -138,6 +138,10 @@ body {
   object-fit: cover;
 }
 
+.awsBadge {
+  height: 140px;
+}
+
 /* Home */
 .home {
   display: flex;
@@ -193,7 +197,6 @@ body {
 /* About */
 .about {
   display: flex;
-  flex-direction: row;
   width: 100%;
   height: 100%;
 }
@@ -205,4 +208,13 @@ body {
   height: 100%;
   margin-left: 60px;
   margin-right: 60px;
+}
+
+.certList {
+  display: flex;
+  flex-direction: row;
+}
+
+.certList li {
+  list-style: none;
 }
