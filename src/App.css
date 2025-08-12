@@ -117,10 +117,26 @@ body {
 }
 
 .socialIcon {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   margin: 0 15px;
   opacity: 0.7;
+}
+
+.attribution a {
+  font-size: 12px;
+  color: rgb(201, 87, 146);
+  text-decoration: none;
+}
+
+.attribution a:visited {
+  color:rgb(201, 87, 146);
+}
+
+.attribution a:hover {
+  color:rgb(61, 54, 92);
+  font-size: 14px;
+  transition: 1s;
 }
 
 /* Images */
@@ -210,6 +226,10 @@ body {
   margin-right: 60px;
 }
 
+.techSkillList li {
+  list-style-type: none;
+}
+
 .certList {
   display: flex;
   flex-direction: row;
@@ -218,3 +238,9 @@ body {
 .certList li {
   list-style: none;
 }
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
