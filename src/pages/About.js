@@ -7,6 +7,10 @@ import html from "../pics/htmlcute.svg";
 import css from "../pics/csscute.svg"
 import javascript from "../pics/jscute.svg";
 import react from "../pics/reactcute.svg";
+import paint from "../pics/paintcute.png";
+import plant from "../pics/pottedplantcute.png";
+import book from "../pics/bookcute.png";
+import controller from "../pics/controllercute.png";
 
 const About = () => {
     return (
@@ -42,18 +46,20 @@ const About = () => {
                         <li><img src={cloudFoundations} alt="AWS Cloud Foundations Badge" class="awsBadge" /></li>
                     </ul>
                     </div>
-                    <div>
+                    <div className="resumeLink">
+                    <p>Full employment and education background can be viewed below in my resume: </p>
+                    <a href={pdf} target='_blank' rel="noopener noreferrer"><button className="genButton">View Resume</button></a>
+                    </div>
+                    <div className="interestsList">
                         <h4>Interests and Hobbies</h4>
                         <p>There is more to me than just technology! I consider myself to be exceptionally curious and I am always exploring new ways to learn and express myself. Some of my favourites are below!</p>
                         <ul>
-                            <li>Watercolour and acrylic painting</li>
-                            <li>Literature, especially dystopian classics and horror</li>
-                            <li>Gardening</li>
-                            <li>Gaming (I love simulators!)</li>
+                            <li><img src={paint} alt="Paint Icon in Cute Style" class="smallIcon"/>Watercolour and acrylic painting</li>
+                            <li><img src={book} alt="Book Icon in Cute Style" class="smallIcon"/>Literature, especially dystopian classics and horror</li>
+                            <li><img src={plant} alt="Potted Plant Icon in Cute Style" class="smallIcon"/>Gardening</li>
+                            <li><img src={controller} alt="Game Controller Icon in Cute Style" class="smallIcon"/>Gaming (I love simulators!)</li>
                             </ul>
                     </div>
-                    <p>Full employment and education background can be viewed below in my resume: </p>
-                    <a href={pdf} target='_blank' rel="noopener noreferrer"><button className="genButton">View Resume</button></a>
                 </div>
                 </div>
                 </div>
