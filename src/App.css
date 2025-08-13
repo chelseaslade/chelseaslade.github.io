@@ -155,7 +155,7 @@ body {
 }
 
 .awsBadge {
-  height: 140px;
+  height: 200px;
 }
 
 /* Home */
@@ -210,6 +210,29 @@ body {
   padding: 15px;
 }
 
+.aboutBanner {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(219, 240, 246);
+}
+
+.iconBanner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 180px;
+  margin-top: 20px;
+}
+
+.iconBanner img {
+  /* position: absolute; */
+  height: 100px;
+  width: 100px;
+}
+
 /* About */
 .about {
   display: flex;
@@ -220,23 +243,41 @@ body {
 .aboutText {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  margin-left: 60px;
-  margin-right: 60px;
+}
+
+.techSkillList {
+  display: flex;
+  width: 100%;
+  flex-direction: row;;
+}
+
+.techSkillList ul {
+  display: flex;
+  margin-top: 40px;
 }
 
 .techSkillList li {
   list-style-type: none;
+  margin-left: 20px;
 }
 
 .certList {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;;
+  width: 100%;
+}
+
+.certList ul {
+  display: flex;
+  margin-top: 40px;
 }
 
 .certList li {
   list-style: none;
+  margin-left: 40px;
+  margin-right: auto;
 }
 
 .icon {
@@ -244,12 +285,19 @@ body {
   height: 100px;
 }
 
+/* 
 .resumeList {
-  
-}
+} */
 
 .interestsList li {
   list-style: none;
+}
+
+.interestsAlt {
+  display: flex;
+  background-color: rgb(219, 240, 246);
+  width: 100%;
+  margin-top: 20px;
 }
 
 .smallIcon {
