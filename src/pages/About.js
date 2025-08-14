@@ -31,12 +31,20 @@ const About = () => {
                     </ul>
                     </div>
                     <h3>Additional Skills</h3>
+                    <div className="addSkills">
                     <ul>
                         <li>Academic research and writing</li>
                         <li>Microsoft Office Suite</li>
                         <li>Mailchimp</li>
                         <li>Sage Accounting</li>
                     </ul>
+                    <ul>
+                        <li>Academic research and writing</li>
+                        <li>Microsoft Office Suite</li> 
+                        <li>Mailchimp</li>
+                        <li>Sage Accounting</li>
+                    </ul>
+                    </div>
                     <h3>Certifications</h3>
                     <div className="certList">
                     <ul>
@@ -53,9 +61,13 @@ const About = () => {
                     <div className="interestsList">
                         <ul>
                             <li><img src={paint} alt="Paint Icon in Cute Style" class="smallIcon"/>Watercolour and acrylic painting</li>
-                            <li class="interestsAlt"><img src={book} alt="Book Icon in Cute Style" class="smallIcon"/>Literature, especially dystopian classics and horror</li>
+                            <div className="interestsAlt">
+                            <li><img src={book} alt="Book Icon in Cute Style" class="smallIcon"/>Literature, especially dystopian classics and horror</li>
+                            </div>
                             <li><img src={plant} alt="Potted Plant Icon in Cute Style" class="smallIcon"/>Gardening</li>
-                            <li class="interestsAlt"><img src={controller} alt="Game Controller Icon in Cute Style" class="smallIcon"/>Gaming (I love simulators!)</li>
+                             <div className="interestsAlt">
+                            <li><img src={controller} alt="Game Controller Icon in Cute Style" class="smallIcon"/>Gaming (I love simulators!)</li>
+                            </div>
                             </ul>
                     </div>
                 </div>

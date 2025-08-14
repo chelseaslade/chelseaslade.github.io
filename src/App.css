@@ -250,28 +250,41 @@ body {
 .techSkillList {
   display: flex;
   width: 100%;
-  flex-direction: row;;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .techSkillList ul {
   display: flex;
-  margin-top: 40px;
 }
 
 .techSkillList li {
   list-style-type: none;
   margin-left: 20px;
+  padding: 10px;
+}
+
+.techSkillList img:hover {
+  transition: 1s;
+  height: 120px;
+}
+
+.addSkills {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .certList {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
 }
 
 .certList ul {
   display: flex;
-  margin-top: 40px;
 }
 
 .certList li {
@@ -280,27 +293,47 @@ body {
   margin-right: auto;
 }
 
+.certList img:hover {
+  transition: 1s;
+  height: 220px;
+}
+
 .icon {
   width: 100px;
   height: 100px;
 }
 
-/* 
-.resumeList {
-} */
 
-.interestsList li {
-  list-style: none;
+.resumeLink {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.interestsList {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .interestsAlt {
   display: flex;
+  flex-direction: column;
   background-color: rgb(219, 240, 246);
   width: 100%;
-  margin-top: 20px;
+}
+
+.interestsList li {
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
 }
 
 .smallIcon {
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
