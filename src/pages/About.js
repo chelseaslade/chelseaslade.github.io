@@ -35,12 +35,9 @@ const About = () => {
                     <ul>
                         <li>Academic research and writing</li>
                         <li>Microsoft Office Suite</li>
-                        <li>Mailchimp</li>
-                        <li>Sage Accounting</li>
+                        <li>Large-sum product sales</li>
                     </ul>
                     <ul>
-                        <li>Academic research and writing</li>
-                        <li>Microsoft Office Suite</li> 
                         <li>Mailchimp</li>
                         <li>Sage Accounting</li>
                     </ul>
