@@ -23,11 +23,11 @@ const About = () => {
                     <h3>Tech Skills</h3>
                     <div className="techSkillList">
                     <ul>
-                        <li><img src={java} alt="Java Icon in Cute Style" class="icon"/>Java</li>
-                        <li><img src={html} alt="HTML Icon in Cute Style" class="icon"/>HTML</li>
-                        <li><img src={css} alt="CSS Icon in Cute Style" class="icon"/>CSS</li>
-                        <li><img src={javascript} alt="JavaScript Icon in Cute Style" class="icon"/>JavaScript</li>
-                        <li><img src={react} alt="React Icon in Cute Style" class="icon"/>React</li>
+                        <li><img src={java} alt="Java Icon in Cute Style" className="icon"/>Java</li>
+                        <li><img src={html} alt="HTML Icon in Cute Style" className="icon"/>HTML</li>
+                        <li><img src={css} alt="CSS Icon in Cute Style" className="icon"/>CSS</li>
+                        <li><img src={javascript} alt="JavaScript Icon in Cute Style" className="icon"/>JavaScript</li>
+                        <li><img src={react} alt="React Icon in Cute Style" className="icon"/>React</li>
                     </ul>
                     </div>
                     <h3>Additional Skills</h3>
@@ -45,9 +45,9 @@ const About = () => {
                     <h3>Certifications</h3>
                     <div className="certList">
                     <ul>
-                        <li><img src={cloudArchitect} alt="AWS Cloud Architect Badge" class="awsBadge" /></li>
-                        <li><img src={cloudDevelop} alt="AWS Cloud Development Badge" class="awsBadge" /></li>
-                        <li><img src={cloudFoundations} alt="AWS Cloud Foundations Badge" class="awsBadge" /></li>
+                        <li><img src={cloudArchitect} alt="AWS Cloud Architect Badge" className="awsBadge" /></li>
+                        <li><img src={cloudDevelop} alt="AWS Cloud Development Badge" className="awsBadge" /></li>
+                        <li><img src={cloudFoundations} alt="AWS Cloud Foundations Badge" className="awsBadge" /></li>
                     </ul>
                     </div>
                     <div className="resumeLink">
@@ -57,13 +57,13 @@ const About = () => {
                     <h3>Interests and Hobbies</h3>
                     <div className="interestsList">
                         <ul>
-                            <li><img src={paint} alt="Paint Icon in Cute Style" class="smallIcon"/>Watercolour and acrylic painting</li>
+                            <li><img src={paint} alt="Paint Icon in Cute Style" className="smallIcon"/>Watercolour and acrylic painting</li>
                             <div className="interestsAlt">
-                            <li><img src={book} alt="Book Icon in Cute Style" class="smallIcon"/>Literature, especially dystopian classics and horror</li>
+                            <li><img src={book} alt="Book Icon in Cute Style" className="smallIcon"/>Literature, especially dystopian classics and horror</li>
                             </div>
-                            <li><img src={plant} alt="Potted Plant Icon in Cute Style" class="smallIcon"/>Gardening</li>
+                            <li><img src={plant} alt="Potted Plant Icon in Cute Style" className="smallIcon"/>Gardening</li>
                              <div className="interestsAlt">
-                            <li><img src={controller} alt="Game Controller Icon in Cute Style" class="smallIcon"/>Gaming (I love simulators!)</li>
+                            <li><img src={controller} alt="Game Controller Icon in Cute Style" className="smallIcon"/>Gaming (I love simulators!)</li>
                             </div>
                             </ul>
                     </div>
