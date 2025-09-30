@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Binary Search Tree Generator",
+        "description": "A Java based application which takes a list of user inputted numbers and generates a Binary Search Tree.",
+        "link": "https://github.com/chelseaslade/BinarySearchTree-REST-API",
+        "image": "",
+        "date": "April, 2025",
+        "tags": ["Java", "HTML", "CSS", "REST API", "Mockito"]
+    },
+    {
+        "title": "Java Library Management Application",
+        "description": "",
+        "link": "https://github.com/chelseaslade/Java-Lib-Management-Program",
+        "image": "",
+        "date": "October, 2024",
+        "tags": ["Java"]
+    }
+]
