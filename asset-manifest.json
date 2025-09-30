@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.06ef3933.css",
-    "main.js": "/static/js/main.f810e8ab.js",
+    "main.css": "/static/css/main.ae504cb2.css",
+    "main.js": "/static/js/main.fc741480.js",
     "static/js/453.3b421d51.chunk.js": "/static/js/453.3b421d51.chunk.js",
     "static/media/chelseaslade1.JPG": "/static/media/chelseaslade1.4dc3c43d061cf875a0ef.JPG",
     "static/media/cslade_resume_PDF.pdf": "/static/media/cslade_resume_PDF.fbef0db67b240903795d.pdf",
@@ -16,12 +16,12 @@
     "static/media/githubcute.svg": "/static/media/githubcute.a6af5a151c602bfc1389ce6e0d2201d6.svg",
     "static/media/linkedincute.svg": "/static/media/linkedincute.496cc7924baca5d1081912c0918918d7.svg",
     "index.html": "/index.html",
-    "main.06ef3933.css.map": "/static/css/main.06ef3933.css.map",
-    "main.f810e8ab.js.map": "/static/js/main.f810e8ab.js.map",
+    "main.ae504cb2.css.map": "/static/css/main.ae504cb2.css.map",
+    "main.fc741480.js.map": "/static/js/main.fc741480.js.map",
     "453.3b421d51.chunk.js.map": "/static/js/453.3b421d51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ef3933.css",
-    "static/js/main.f810e8ab.js"
+    "static/css/main.ae504cb2.css",
+    "static/js/main.fc741480.js"
   ]
 }
