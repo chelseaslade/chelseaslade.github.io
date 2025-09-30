@@ -153,7 +153,7 @@ body {
 .attribution a {
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  font-size: 10px;
   color: rgb(248, 181, 95);
   text-decoration: none;
 }
@@ -412,6 +412,60 @@ body {
   width: 50px;
   height: 50px;
 }
+
+/* Contact Page */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactLabel {
+  color: rgb(61, 54, 92);
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 1px solid rgb(201, 87, 146);
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+}
+
+.contactForm textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.contactForm button {
+  width: 200px;
+  background: rgb(201, 87, 146);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.contactForm button:hover {
+  background-color: rgb(248, 181, 95);
+  color: white;
+  transition: 0.6s;
+}
+
+
 
 /* Effects */
 .hoverGrow {
