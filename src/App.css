@@ -295,6 +295,13 @@ body {
   flex-shrink: 0;
 }
 
+/* Projects */
+
+.projectDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
 /* About */
 .about {
   display: flex;
