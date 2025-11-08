@@ -9,7 +9,7 @@
     },
     {
         "title": "Java Library Management Application",
-        "description": "",
+        "description": "A CLI application which allows for the registration of patrons, authors, and books with an integrated borrowing system.",
         "link": "https://github.com/chelseaslade/Java-Lib-Management-Program",
         "image": "",
         "date": "October, 2024",
