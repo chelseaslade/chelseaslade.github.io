@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectList from '../components/ProjectList';
 
 const Projects = () => {
     return (
@@ -6,7 +7,8 @@ const Projects = () => {
               <div className="container">
                 <div className="projects">
                     <h3>Projects</h3>
-                    <p>Placeholder for projects page</p>
+                    <p>Below are some of my recent software projects:</p>
+                    <ProjectList />
                 </div>
                 </div>
         </>
