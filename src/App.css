@@ -192,6 +192,12 @@ body {
   height: 200px;
 }
 
+.projectImage {
+  height: 300px;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
 /* Home */
 .home {
   display: flex;
@@ -303,9 +309,11 @@ body {
 .projectContainer {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 #projectLink {
+  margin-bottom: 20px;
   height: 40px;
   width: 160px;
 }
