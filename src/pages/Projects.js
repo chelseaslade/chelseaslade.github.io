@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectList from '../components/ProjectList';
 
 const Projects = () => {
@@ -15,4 +14,4 @@ const Projects = () => {
     );
 };
 
-    export default Projects;
+export default Projects;
