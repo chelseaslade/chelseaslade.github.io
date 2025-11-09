@@ -1,8 +1,16 @@
+:root {
+  --purple: rgb(61, 54, 92);
+  --pink: rgb(201, 87, 146);
+  --gold: rgb(223, 154, 62);
+  --blue-bg: rgb(219, 240, 246);
+}
+
+
 /* Main Styles */
 body {
-  background-color: white;
+  background-color: rgb(251, 251, 255);
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(61, 54, 92);
+  color: var(--purple);
 }
 
 .container {
@@ -24,9 +32,10 @@ body {
 }
 
 .genButton {
-  background-color: rgb(201, 87, 146);
+  background-color: var(--pink);
   color: white;
   border: none;
+  border-radius:5px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -37,7 +46,7 @@ body {
 }
 
 .genButton:hover {
-  background-color: rgb(248, 181, 95);
+  background-color: var(--gold);
   color: white;
   transition: 0.6s;
 }
@@ -47,6 +56,7 @@ body {
   display: flex;
   width: 100%;
   font-size: 20px;
+  gap: 20px;
 }
 
 .nav {
@@ -55,16 +65,16 @@ body {
 }
 
 .nav a {
-  color: rgb(61, 54, 92);
+  color:var(--purple);
   text-decoration: none;
 }
 
 .nav a:visited {
-  color: rgb(61, 54, 92);
+  color: var(--purple);
 }
 
 .nav a:hover {
-  color: rgb(201, 87, 146);
+  color: var(--pink);
 }
 
 .navList {
@@ -76,7 +86,7 @@ body {
 }
 
 .contactLink {
-  background-color: rgb(201, 87, 146);
+  background-color: var(--pink);
   color: white !important; 
   border: none;
   padding: 10px 20px;
@@ -87,7 +97,7 @@ body {
 }
 
 .contactLink:hover {
-  background-color: rgb(248, 181, 95);
+  background-color: var(--gold);
   color: white;
 }
 
@@ -106,7 +116,7 @@ body {
 .bar {
   height: 3px;
   width: 100%;
-  background-color: rgb(201, 87, 146);
+  background-color: var(--pink);
   border-radius: 2px;
 }
 
@@ -136,10 +146,9 @@ body {
 .footer {
   display: flex;
   width: 100%;
-  color: rgb(61, 54, 92);
+  color: var(--purple);
   font-size: 16px;  
-  margin-top: 80px;
-  margin-bottom: 20px;
+  margin-top: 60px;
   justify-content: center;
 }
 
@@ -154,12 +163,12 @@ body {
   display: flex;
   justify-content: center;
   font-size: 10px;
-  color: rgb(248, 181, 95);
+  color:var(--gold);
   text-decoration: none;
 }
 
 .attribution a:visited {
-  color:rgb(201, 87, 146);
+  color:var(--pink);
 }
 
 .attribution a:hover {
@@ -174,14 +183,19 @@ body {
 }
 
 #introPic {
-  margin: 20px;
-  border-radius: 50%;
+  border-radius: 100%;
   height: 300px;
   object-fit: cover;
 }
 
 .awsBadge {
   height: 200px;
+}
+
+.projectImage {
+  height: 300px;
+  border-radius: 15px;
+  object-fit: contain;
 }
 
 /* Home */
@@ -192,23 +206,22 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  gap: 20px;
 }
 
 .home h1 {
-  color: rgb(61, 54, 92);
-  margin: 5px;
+  color: var(--purple);
+  margin: 20px;
 }
 
 .home h2 {
-  color: rgb(61, 54, 92);
+  color: var(--purple);
   margin: 0;
   font-size: 20px;
 }
 
 .home h4 {
-  color:rgb(201, 87, 146);
-  margin: 10px;
+  color:var(--pink);
+  margin: 8px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -236,8 +249,13 @@ body {
   padding: 15px;
 }
 
+
 .introLine {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .scroller {
@@ -281,6 +299,25 @@ body {
   flex-shrink: 0;
 }
 
+/* Projects */
+
+.projectDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#projectLink {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 160px;
+}
+
 /* About */
 .about {
   display: flex;
@@ -322,7 +359,7 @@ body {
   padding: 20px;
   list-style-type: none;
   font-size: 18px;
-  color: rgb(61, 54, 92);
+  color: var(--purple);
   gap: 10px;
 }
 
@@ -396,7 +433,7 @@ body {
 }
 
 .interestsAlt {
-  background-color: rgb(219, 240, 246);
+  background-color: var(--blue-bg);
   width: 100%;
 }
 
@@ -405,10 +442,11 @@ body {
   flex-direction: row;
   list-style: none;
   padding: 10px;
+  align-items: center;
 }
 
 .interestsList img {
-  margin-right: 20px;
+  margin-right: 15px;
   width: 50px;
   height: 50px;
 }
@@ -435,7 +473,7 @@ body {
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 1px solid rgb(201, 87, 146);
+  border: 1px solid var(--pink);
   padding: 13px;
   margin-bottom: 15px;
   width:100%;
@@ -449,7 +487,7 @@ body {
 
 .contactForm button {
   width: 200px;
-  background: rgb(201, 87, 146);
+  background: var(--pink);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -460,7 +498,7 @@ body {
 }
 
 .contactForm button:hover {
-  background-color: rgb(248, 181, 95);
+  background-color: var(--gold);
   color: white;
   transition: 0.6s;
 }

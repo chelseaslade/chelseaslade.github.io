@@ -1,12 +1,14 @@
 import React from 'react';
+import ProjectList from '../components/ProjectList';
 
 const Projects = () => {
     return (
         <>
               <div className="container">
                 <div className="projects">
-                    <h3>Projects</h3>
-                    <p>Placeholder for projects page</p>
+                    <h2>Projects</h2>
+                    <p>Please find listed below a list of my previous software projects:</p>
+                    <ProjectList />
                 </div>
                 </div>
         </>

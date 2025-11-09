@@ -16,12 +16,13 @@ const Home = () => {
         <h2>Junior Software Developer</h2>
         <h4>Java - SQL Databases - Javascript - React</h4>
         <div className="introLine">
-        <p>Hello! I'm Chelsea. <br/><br /> I'm an endlessly curious lover of science and technology who loves using my creativity to find solutions to problems. Welcome to my portfolio! </p>
+        <p>Hello! I'm Chelsea. <br/><br /> I'm an endlessly curious lover of science and technology who consistently uses my creativity to find solutions to complex problems. Welcome to my portfolio! </p>
+         <ImgScroll />
+          <Link to="/about"><button className="genButton">About Me</button></Link>
         </div> 
         </div>
         </div>
-        <ImgScroll />
-          <Link to="/about"><button className="genButton">About Me</button></Link>
+      
         </div>
         </div>
       </>

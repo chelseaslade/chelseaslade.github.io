@@ -1,5 +1,5 @@
 import ProjectDisplay from "./ProjectDisplay";
-import projects from "../data/projects.json";
+import projects from "../projects.json";
 
 const ProjectList = () => {
   return (

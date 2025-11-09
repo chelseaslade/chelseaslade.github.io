@@ -1,12 +1,22 @@
 
 const ProjectDisplay = ({ project }) => {
+
+  const handleClick = () => {
+  window.open(project.link, "_blank", "noopener, noreferrer");
+  };
+
+  const imageSrc = project.image ? require(`../${project.image}`) : null;
+
   return (
     <div className="projectDisplay">
-      <h3>{project.title}</h3>
-      <img src={project.image} alt={project.title} className="projectImage" />
-      <p>{project.tags.join(", ")}</p>
-      <p>{project.description}</p>
-      <a href={project.link}><button>View on GitHub</button></a>
+      <div className="projectContainer">
+      <h4>{project.title}</h4>
+      <div className="imageContainer">
+      {imageSrc && <img src={imageSrc} alt={project.title} className="projectImage" />}</div>
+      <p>Tags: {project.tags.join(", ")}</p>
+      <p>Description: {project.description}</p>
+      <button onClick={handleClick} className="genButton" id="projectLink">View on GitHub</button>
+      </div>
     </div>
   );
 };
