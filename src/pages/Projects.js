@@ -1,4 +1,4 @@
-import ProjectList from '../components/ProjectList';
+import SearchByTag from '../components/SearchByTag';
 
 const Projects = () => {
     return (
@@ -7,7 +7,7 @@ const Projects = () => {
                 <div className="projects">
                     <h2>Projects</h2>
                     <p>Please find listed below a list of my previous software projects:</p>
-                    <ProjectList />
+                    <SearchByTag />
                 </div>
                 </div>
         </>
