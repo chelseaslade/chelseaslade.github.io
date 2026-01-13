@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import profilepic from '../pics/chelseaslade1.JPG';
+import profilepic from '../pics/chelseaslade2.jpeg';
 import ImgScroll from '../components/ImgScroll';
 
 const Home = () => {
