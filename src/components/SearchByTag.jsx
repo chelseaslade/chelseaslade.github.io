@@ -7,25 +7,26 @@ const SearchByTag = () => {
   const [searchResults, setSearchResults] = useState([]);
   const [hasSearched, setHasSearched] = useState(false);
 
-  const handleSearch = () => {
-    const results = projects.filter(project =>
-      project.tags.some(tag =>
-        tag.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-    );
-    setSearchResults(results);
-    setHasSearched(true);
+const handleSearch = () => {
+  const query = searchQuery.trim().toLowerCase();
+  const results = projects.filter(project =>
+    project.tags.some(
+      tag => tag.toLowerCase() === query
+    )
+  );
+  setSearchResults(results);
+  setHasSearched(true);
   };
 
-  const handleReset = () => {
+const handleReset = () => {
     setSearchQuery("");
     setSearchResults([]);
     setHasSearched(false);
   };
 
-  const displayedProjects = hasSearched ? searchResults : projects;
+const displayedProjects = hasSearched ? searchResults : projects;
 
-  return (
+return (
     <div className="searchListContainer">
       <h3>Search by Tag:</h3>
       <input

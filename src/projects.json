@@ -15,5 +15,13 @@
         "image": "pics/lib_image.png",
         "date": "October, 2024",
         "tags": ["Java", "CLI"]
+    },
+    {
+        "title": "Software Development Portfolio",
+        "description": "This portfolio! A website-based portfolio used to share my projects and software development related skillset. Hosted using GitHub pages and built in React.",
+        "link": "https://github.com/chelseaslade/chelseaslade.github.io",
+        "image": "pics/portfolio_img.png",
+        "date": "May, 2025",
+        "tags": ["React", "GitHub Pages", "Javascript"] 
     }
 ]
