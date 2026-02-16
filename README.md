@@ -5,6 +5,8 @@ This repository serves as my development portfolio, showcasing the projects I’
 
 I enjoy creating clean, user-focused applications and exploring new technologies as I continue to grow my skills!  
 
+Hosted at: https://chelseaslade.github.io/
+
 ---
 
 ### Tech & Tools
